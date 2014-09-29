@@ -1,0 +1,24 @@
+#summary Аппаратная платформа MJOY16, история, схема, платы и перечень деталей
+#labels MJOY16
+
+= Аппаратная платформа MJOY16 =
+
+
+*Схема:*
+компилирование прошивки "HARDWARE=2"<br>
+http://mmjoy.googlecode.com/svn/wiki/Mjoy16_2005.png
+
+<hr>
+Вариант платы от Iran tsinik<br>
+[http://mmjoy.googlecode.com/svn/wiki/Mjoy16_tsinik.png]
+[http://mmjoy.googlecode.com/svn/wiki/Mjoy16_tsinik2.png]<br>
+в формате Sprint-Layout 5.0 [http://mmjoy.googlecode.com/svn/wiki/Mjoy16_tsinik.lay]<br>
+<hr>
+
+Вариант сборки от Kagor<br>
+[https://mmjoy.googlecode.com/svn/wiki/Mjoy16_Kagor_top.jpg]<br>
+[https://mmjoy.googlecode.com/svn/wiki/Mjoy16_Kagor_disasm.jpg]<br>
+[https://mmjoy.googlecode.com/svn/wiki/Mjoy16_Kagor_bot.jpg]<br>
+
+<hr>
+-страничка в разработке, продолжение следует-

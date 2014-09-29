@@ -1,0 +1,64 @@
+#summary Аппаратная платформа MMJOY2(2013-2014, USB 2.0)
+
+= Аппаратная платформа MMJOY2(USB 2.0) =
+
+*MMJOY2.a(AT90USB646)*<br>
+http://mmjoy.googlecode.com/svn/wiki/AT90USB646_MMJoy.JPG<br>
+http://mmjoy.googlecode.com/svn/wiki/AT90USB646_MMJoy_board1.JPG<br>
+http://mmjoy.googlecode.com/svn/wiki/AT90USB646_MMJoy_board2.JPG<br>
+http://mmjoy.googlecode.com/svn/wiki/AT90USB646_MMJoy_board3.JPG<br>
+файл схемы: http://mmjoy.googlecode.com/svn/wiki/AT90USB646_MMJoy.LAY (c)mega_mozg<br>
+
+
+<hr>
+*MMJOY2.b(ATMEGA32U4-ProMicro)*<br>
+(схема аналог для самостоятельного изготовления)<br>
+http://mmjoy.googlecode.com/svn/wiki/m32u4.JPG<br>
+файл схемы: http://mmjoy.googlecode.com/svn/wiki/m32u4.lay (c)China<br>
+
+готовая плата<br>
+http://mmjoy.googlecode.com/svn/wiki/ProMicro.jpg<br>
+
+
+<hr>
+*MMJOY2.c(ATMEGA32U4-Teensy2)*<br>
+
+готовая плата<br>
+http://mmjoy.googlecode.com/svn/wiki/Teensy_2_pins.PNG<br>
+http://mmjoy.googlecode.com/svn/wiki/Teensy_2_pins_joy.png<br>
+
+
+<hr>
+*MMJOY2.d (ATMEGA32U4-Void_6/36)*<br>
+http://mmjoy.googlecode.com/svn/wiki/m32u4_6axis_36btn_void.PNG<br>
+файл схемы: http://mmjoy.googlecode.com/svn/wiki/m32u4_6axis_36btn_void.lay6 (c)Void/China<br>
+
+<hr>
+*MMJOY2.e (ATMEGA32U4-YoZHeG_888, USB2.0)*<br>
+материалы в разработке<br>
+
+<hr>
+*MMJOY2.f (AT90USB1286-Teensy++2.0, USB2.0)*<br>
+http://mmjoy.googlecode.com/svn/wiki/Teensy++_2_pins_joy.png<br>
+<hr>
+
+*Примечания по прошивке с помощью родного бутлоадера и программы Flip*<br>
+(информация для пользователей кто собирает контроллер с нуля)<br>
+Микроконтроллеры "AT90USB646" и "ATMEGA32U4" с завода имеют встроенный бутлоадер - встроенный загрузчик прошивальщик. Поэтому правильно собранная плата при подключении к компьютеру сразу опознается ОС. Для прошивки необходимо скачать и установить бесплатный софт FLIP с сайта ATMEL.<br>
+Ссылка на страничку загрузки http://www.atmel.com/tools/flip.aspx<br>
+<br>
+Для активации загрузчика необходимо выполнить следующие действия.<br>
+На платах с кнопками:<br>
+- подключаем плату через USB<br>
+- нажимаем кнопку RST<br>
+- удерживая кнопку RST, нажимаем кнопку HWB<br>
+- удерживая кнопку HWB, отпускаем кнопку RST<br>
+- отпускаем HWB<br>
+На платах без кнопки, с перемычкой HWB:<br>
+- ставим перемычку HWB<br>
+- подключаем плату через USB<br>
+- снимаем перемычку HWB<br>
+<br>
+Если всё сделано верно ОС определит новое устройство. Название соответственно используемому микроконтроллеру. 
+Если в ОС устройство определяется с ошибкой, необходимо в диспетчере устройств найти устройство, и обновить драйвер, указав в качестве источника каталог с установленным ПО Flip. 
+<hr>

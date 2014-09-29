@@ -1,0 +1,29 @@
+#summary Настройка фьюз бит
+=Настройка фьюз бит=
+
+На словах:<br>
+*«ENABLED»*<br>
+1)	External Crystal – ENABLED<br>
+2)	BOD – Enabled (for 4.0-4.5v)<br>
+3)	SPIEN – ENABLED<br>
+4)	SPI – ENABLED<br>
+*«DISABLED»*<br>
+5)	CKDIV8 – DISABLED<br>
+6)	CKOPT – DISABLED<br>
+7)	Preserve EEPROM – DISABLED<br>
+8)	WDTON – DISABLED<br>
+9)	JTAG – DISABLED<br>
+10)	On-chip Debug Wire – DISABLED<br>
+<hr>
+В картинках:<br>
+*ATmega8*<br>
+http://mmjoy.googlecode.com/svn/wiki/fuse_atmega8_mmjoy.PNG<br><br>
+
+*ATmega16*<br>
+http://mmjoy.googlecode.com/svn/wiki/fuse_atmega16_mmjoy.PNG<br><br>
+
+*ATmega168*<br>
+http://mmjoy.googlecode.com/svn/wiki/fuse_atmega168_mmjoy.PNG<br><br>
+
+*ATmega328*<br>
+http://mmjoy.googlecode.com/svn/wiki/fuse_atmega328_mmjoy.PNG<br><br>

@@ -1,0 +1,32 @@
+#summary Аппаратная платформа METABOARD
+#labels METABOARD,microsin
+
+= Аппаратная платформа METABOARD =<br>
+Metaboard - дешевая Arduino-совместимая макетная плата (её можно программировать прямо из популярной среды разработки Arduino IDE). Metaboard имеет интерфейс USB, программируется прямо через него, и позволяет делать USB-устройства на основе библиотеки V-USB. Использование недефицитных деталей (микроконтроллер ATmega168 или ATmega328 в корпусе DIP, резисторы и конденсаторы со штыревыми выводами) позволяет собрать такую плату самостоятельно в домашних условиях.<br>
+компилирование прошивки "HARDWARE=3"<br>
+<br>
+*Исходная схема:*<br>
+http://microsin.net/images/stories/hard/Metaboard-circuit.gif<br>
+*Исходная плата:*<br>
+http://microsin.net/images/stories/hard/metaboard-IMG_1402.JPG<br>
+http://microsin.net/images/stories/hard/metaboard-IMG_1412.JPG<br>
+*Доработка платы:*<br>
+http://mmjoy.googlecode.com/svn/wiki/METABOARD_bot.png http://mmjoy.googlecode.com/svn/wiki/METABOARD_bot_sgn.png<br>
+http://mmjoy.googlecode.com/svn/wiki/METABOARD_top.png http://mmjoy.googlecode.com/svn/wiki/METABOARD_top_sgn.png<br>
+<br>
+дорабока минимальная:<br>
+выведены штырьки портов A, B и D.<br>
+для цепей АЦП еще выведены штырьки для земли и питания.<br>
+для АЦП подпаян конденсатор 0.1uF (AREF-GND)<br>
+допаяны 6 штук 10ком резисторов для матрицы кнопок<br>
+<br>
+*Перечень делатей (без учета деталей основной платы, только что нужно для джойстика):*<br>
+|| *Название/Номинал* || *Количество* || *Примечание* ||
+|| Резистор 4.7 кОм || 6 шт || (4.7-10 кОм) ||
+|| Потенциометры (10—100 кОм) || до 6 шт || для осей, меньше номинал - лучше ||
+|| Любой выпрямительный диод || до 36 шт || по 1 шт. на кнопку ||
+|| Кнопки || до 36 шт ||  ||
+|| Разъёмы штыри || до 30 шт || 18 - вывод 6 осей, 6+6 - матрица кнопок  ||
+
+*Ссылки, источники информации:*<br>
+microsin [http://microsin.net/programming/AVR/metaboard.html]<br>
