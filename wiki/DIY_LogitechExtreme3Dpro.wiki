@@ -20,7 +20,7 @@
 
 4. Соединить проводом контакты указанные стрелками на изображении.
 
-https://drive.google.com/open?id=0ByGNC3NqD86KeW5UVHFQeDF3Vkk&authuser=0
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_btn.jpg
 
 Готово.   
 
@@ -29,26 +29,19 @@ https://drive.google.com/open?id=0ByGNC3NqD86KeW5UVHFQeDF3Vkk&authuser=0
 
 Ручка же, в доработке, не нуждается. Ее нужно подключить согласно схемы:
 
-https://drive.google.com/open?id=0ByGNC3NqD86KWGpIVWdBMU9ERjA&authuser=0 
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_0.jpg
 
 Итог : Задействовав  три вывода «Button Row» и четыре ввода «Button column» мы получаем (3х4=12) 12 кнопок. То есть, у нас есть возможность установить еще 2 кнопки к общему количеству. Используя сочетания «BR» серый с «ВС»оранжевый, и «BR»серый с «ВС»салатовый.
 
 Еще схемы:
-
-https://drive.google.com/open?id=0ByGNC3NqD86KNkR1SU5wS1ZlcEk&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KSWpwd1lsSGdRMjQ&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KX1lXYVg1dlZCTTA&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KaGx2amRJRGR4Nnc&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KUGVVN21CQzVIWEE&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86Kd0tUUi1veVVJTTA&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KWVhySkRaOEN6bXc&authuser=0
-
-https://drive.google.com/open?id=0ByGNC3NqD86KaXJSX1M1YzJpYTg&authuser=0
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_1.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_2.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_3.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_4.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_5.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_6.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_7.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_8.jpg
+http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_9.jpg
 
 Материал подготовил xxx_ALF_xxx. При поддержке Mega_mozg.
