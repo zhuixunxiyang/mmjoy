@@ -20,28 +20,45 @@
 
 4. Соединить проводом контакты указанные стрелками на изображении.
 
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_btn.jpg
+https://drive.google.com/open?id=0ByGNC3NqD86KeW5UVHFQeDF3Vkk&authuser=0
 
 Готово.   
 
 Итог: Задействовано 5 проводов из 6. Два «Button Row» и три «Button column». Оставшийся провод, с 4-го контакта, можно подключить к контроллеру (свободный «Button Row»), и использовать для подключения дополнительных кнопок.
 
 
-Ручка же, в доработке, не нуждается. Ее нужно подключить согласно схемы:
+Ручка же, в доработке, не нуждается.
 
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_0.jpg
+От автора:
+По поводу подключения кнопок из ручки логитека.
+Путем простого прозванивания я определил, что трехногие SOT-32 на платке, в ручке, являются сдвоенными диодами. И по сути, эту платку, можно спокойно использовать в качестве диодной матрицы для любого контроллера.
+Да, там матрица 3 на 4, без диодов для двух кнопок, но учитывая гигантское количество строк и столбцов кнопочных матриц, для большинства контроллеров из проекта MMJoy, я не вижу причины зачем переформатировать имеющуюся разводку и диодную матрицу, ведь достаточно подключить имеющиеся провода куда требуется, а все мелкие погрешности и перестановки в порядке кнопок, если это так уж необходимо, делаются тем же конфигуратором.
+Лично я подключал ее, таким образом, еще к ArtJoy, и никаких проблем не испытывал. И, кстати, пользовался SV_mapper.
+Прикрепляю к письму табличку с обозначением кто там столбцы а кто - колонки, и направление диодов между ними, дабы определить к какой группе выводов того или иного контроллера подключать.
+
+В итоге по имеющимся 7 проводам подключается 10 кнопок и еще две можно поставить добавив свои диоды.
+С уважением, YoZHeG.
+
+https://drive.google.com/open?id=0ByGNC3NqD86KWGpIVWdBMU9ERjA&authuser=0 
 
 Итог : Задействовав  три вывода «Button Row» и четыре ввода «Button column» мы получаем (3х4=12) 12 кнопок. То есть, у нас есть возможность установить еще 2 кнопки к общему количеству. Используя сочетания «BR» серый с «ВС»оранжевый, и «BR»серый с «ВС»салатовый.
 
 Еще схемы:
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_1.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_2.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_3.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_4.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_5.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_6.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_7.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_8.jpg
-http://mmjoy.googlecode.com/svn/wiki/DIY_LogitechExtreme3Dpro_PCB_stick_scheme_9.jpg
+
+https://drive.google.com/open?id=0ByGNC3NqD86KNkR1SU5wS1ZlcEk&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KSWpwd1lsSGdRMjQ&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KX1lXYVg1dlZCTTA&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KaGx2amRJRGR4Nnc&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KUGVVN21CQzVIWEE&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86Kd0tUUi1veVVJTTA&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KWVhySkRaOEN6bXc&authuser=0
+
+https://drive.google.com/open?id=0ByGNC3NqD86KaXJSX1M1YzJpYTg&authuser=0
 
 Материал подготовил xxx_ALF_xxx. При поддержке Mega_mozg.
