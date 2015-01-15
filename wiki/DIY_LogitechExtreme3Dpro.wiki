@@ -13,6 +13,8 @@
 
 Начнем с кнопок корпуса. Они готовы к подключению как есть.
 
+<iframe src="https://docs.google.com/file/d/0ByGNC3NqD86KZmRaWEdHWTlCbWM/preview" width="640" height="480"></iframe>
+
 https://drive.google.com/open?id=0ByGNC3NqD86KZmRaWEdHWTlCbWM&authuser=0
 
 Но, если не будет хватать пинов BC, можно проделать следующее:
