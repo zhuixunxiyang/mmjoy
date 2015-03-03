@@ -1,6 +1,6 @@
 #summary Defender Cobra M5
 <br>
-=Замена электроники Defender Cobra M5=<br>
+*Замена электроники Defender Cobra M5*<br>
 
 <br>
 платки TLE5010/5011
@@ -43,6 +43,18 @@ https://mmjoy.googlecode.com/svn/wiki/CobraM5/DSCF5873.jpg<br>
 https://mmjoy.googlecode.com/svn/wiki/CobraM5/DSCF5911.jpg<br>
 готовим подключение ручки к контролеру. внимание, цвета (или их порядок) могут различаться, поэтому отталкиваемся только от порядка в коннекторе. четыре провода общие с проводами от сенсоров TLE5010(питание и SPI-MISO/SPI-SCK)<br>
 <br>
+https://mmjoy.googlecode.com/svn/wiki/CobraM5/DSCF5912.jpg<br>
+колёсико газа<br>
+<br>
+https://mmjoy.googlecode.com/svn/wiki/CobraM5/Pins_Sparkfun[promicro].PNG
+https://mmjoy.googlecode.com/svn/wiki/CobraM5/DSCF5913.jpg<br><br>
+подключаем всё к промикро<br>
+<br>
+https://mmjoy.googlecode.com/svn/wiki/CobraM5/MMJoy_cnfg1.png<br>
+https://mmjoy.googlecode.com/svn/wiki/CobraM5/MMJoy_cnfg2.png<br>
+конфигурация<br>
+
+
 
 
 
